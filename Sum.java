@@ -16,10 +16,12 @@ public class Sum {
 
         int largest = Math.max(num1, Math.max(num2, num3));
 
-        int sum = largest;
+        int sum = num1 + num2 + num3;
+        double avg = sum / 3;
 
         System.out.println("The largest number is:" + largest);
         System.out.println("The sum of the largest number is:" + sum);
+        System.out.println("The average of the number is:" + avg);
 
         sc.close();
     }
